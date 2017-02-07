@@ -1,4 +1,4 @@
-package com.wr;
+package com.wr.robot;
 import javax.swing.JPanel;
 import javax.swing.ImageIcon;
 import javax.swing.JSplitPane;

@@ -1,7 +1,7 @@
 /**
  * Created by wr on 2017/1/3.
  */
-import com.wr.MainPanel;
+import com.wr.robot.MainPanel;
 
 import javax.swing.*;
 

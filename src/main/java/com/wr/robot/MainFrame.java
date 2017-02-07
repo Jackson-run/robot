@@ -1,4 +1,4 @@
-package com.wr;
+package com.wr.robot;
 import javax.swing.*;
 import java.awt.*;
 
@@ -15,6 +15,7 @@ public class MainFrame extends JFrame{
     public MainFrame() throws HeadlessException {
         super();
         init();
+
     }
 
     /**
@@ -25,6 +26,7 @@ public class MainFrame extends JFrame{
         mainPanel = new MainPanel(500,600);
         setSize(750,600);
         add(mainPanel);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
 
     }
